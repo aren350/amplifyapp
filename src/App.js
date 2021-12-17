@@ -1,16 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-import {Frame392} from './ui-components';
+import {SocialA} from './ui-components';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        {/* <p>
           Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <Frame392 />
+        </p> */}
+        <SocialA />
         <a
           className="App-link"
           href="https://reactjs.org"
